@@ -1,0 +1,46 @@
+[{'error': 
+    {'code': 429, 
+    'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:718392736701'.", 
+    'errors': 
+        [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:718392736701'.", 
+        'domain': 'global', 
+        'reason': 'rateLimitExceeded'}], 
+        'status': 'RESOURCE_EXHAUSTED',
+        'details':
+            [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 
+            'reason': 'RATE_LIMIT_EXCEEDED', 
+            'domain': 'googleapis.com', 
+            'metadata': 
+                'quota_limit_value': '100', 
+                'quota_limit': 'DefaultPerDayPerProject', 
+                'quota_location': 'global', 
+                'service': 'customsearch.googleapis.com', 
+                'consumer': 'projects/718392736701', 
+                'quota_metric': 'customsearch.googleapis.com/requests'}}, 
+{'@type': 'type.googleapis.com/google.rpc.Help',
+ 'links': 
+    [{'description': 'Request a higher quota limit.', '
+    url': 'https://cloud.google.com/docs/quota#requesting_higher_quota'}]}]}}, 
+{'error': 
+    {'code': 429, 
+    'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:718392736701'.", 
+    'errors': 
+        [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:718392736701'.", 
+        'domain': 'global', 
+        'reason': 'rateLimitExceeded'}], 
+    'status': 'RESOURCE_EXHAUSTED', 
+    'details': 
+        [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+        'reason': 'RATE_LIMIT_EXCEEDED', 
+        'domain': 'googleapis.com', 
+        'metadata': 
+            {'quota_location': 'global', 
+            'quota_limit': 'DefaultPerDayPerProject', 
+            'service': 'customsearch.googleapis.com', 
+            'quota_metric': 'customsearch.googleapis.com/requests', 
+            'quota_limit_value': '100', 
+            'consumer': 'projects/718392736701'}}, 
+        {'@type': 'type.googleapis.com/google.rpc.Help', 
+        'links': 
+            [{'description': 'Request a higher quota limit.', 
+            'url': 'https://cloud.google.com/docs/quota#requesting_higher_quota'}]}]}}]
