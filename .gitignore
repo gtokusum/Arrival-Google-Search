@@ -177,7 +177,7 @@ pyrightconfig.json
 *.xlsx
 *.xlsm
 
-
+*.csv
 
 
 
